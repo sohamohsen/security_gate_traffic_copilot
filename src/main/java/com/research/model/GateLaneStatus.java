@@ -1,4 +1,7 @@
 package com.research.model;
 
-public class GateLaneStatus {
+public enum GateLaneStatus {
+    OPEN,
+    CLOSED,
+    BUSY
 }
